@@ -1,4 +1,6 @@
 {
-    "button": "./packages/button/index.js"
+    "button": "./packages/button/index.js",
+    "row": "./packages/row/index.js",
+    "col": "./packages/col/index.js"
 }
   

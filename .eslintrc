@@ -66,6 +66,7 @@
         "generator-star-spacing": [2, {"before": false, "after": true}],
         // 要求在块级
         "lines-around-comment": [2, {"beforeBlockComment": true, "afterBlockComment": false, "beforeLineComment": true, "afterLineComment": false}],
+        "prefer-const": 0,
         "no-async-promise-executor" : "off",
         "no-misleading-character-class" : "off",
         "no-useless-catch" : "off"

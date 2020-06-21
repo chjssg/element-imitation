@@ -1,3 +1,4 @@
+/** 控制用户是否能选中文本*/
 @mixin utils-user-select($value) {
     -moz-user-select: $value;
     -webkit-user-select: $value;
