@@ -157,5 +157,5 @@ const webpackConfig = {
 //     };
 //     webpackConfig.devtool = false;
 //   }
-
+console.log(process.env.NODE_ENV)
 module.exports = webpackConfig;
