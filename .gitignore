@@ -6,6 +6,7 @@ yarn-debug.log*
 yarn-error.log*
 test/
 lib/
+src/index.js
 
 # Editor directories and files
 .idea

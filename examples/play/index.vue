@@ -10,17 +10,19 @@
      <chj-button type="danger" round></chj-button>
     <i class="chj-icon-loading">123</i>
     <span :class="['test',{'test2': true, 'test1': true}]">test</span><br>
-    <chj-row>123</chj-row>
-    <chj-row>
-      <chj-col>123cahbjsk</chj-col>
+    <!-- <chj-row tag='span'>123</chj-row>
+    <chj-row tag='span' justify='end'>
+      <chj-col>{{input}}</chj-col>
     </chj-row>
     <chj-row :gutter="10">
       <chj-col :xs="8" :sm="6" :md="4" :lg="3" :xl="1"><div class="grid-content bg-purple"></div></chj-col>
       <chj-col :xs="4" :sm="6" :md="8" :lg="9" :xl="11"><div class="grid-content bg-purple-light"></div></chj-col>
       <chj-col :xs="4" :sm="6" :md="8" :lg="9" :xl="11"><div class="grid-content bg-purple"></div></chj-col>
       <chj-col :xs="8" :sm="6" :md="4" :lg="3" :xl="1"><div class="grid-content bg-purple-light"></div></chj-col>
-    </chj-row>
-
+    </chj-row> -->
+    {{input}}
+    <chj-input v-model="input" @input="clickk(input)" placeholder='123' maxlength='100'></chj-input>
+    <!-- <input type="" v-model="input" maxlength="15"> -->
   </div>
 </template>
 
@@ -32,8 +34,11 @@
       };
     },
     methods: {
-        clickk() {
-            console.log(123)
+        clickk(val) {
+            console.log(val)
+        },
+        test(event) {
+          this.input = event.target.value
         }
     }
   };

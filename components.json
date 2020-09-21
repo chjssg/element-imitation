@@ -1,6 +1,7 @@
 {
-    "button": "./packages/button/index.js",
-    "row": "./packages/row/index.js",
-    "col": "./packages/col/index.js"
+  "row": "./packages/row/index.js",
+  "col": "./packages/col/index.js",
+  "button": "./packages/button/index.js",
+  "input": "./packages/input/index.js",
+  "form": "./packages/form/index.js"
 }
-  
